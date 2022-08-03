@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="z`">
 
 <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="adminlte/img/download.jfif" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="adminlte/img/as.png" alt="AdminLTELogo" height="60" width="60">
 </div>
 
 
@@ -97,7 +97,7 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="admin" class="brand-link">
-                <img src="adminlte/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+                <img src="adminlte/img/as.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
                     style="opacity: .8">
                 <span class="brand-text font-weight-light"> SDN Margaasih</span>
             </a>
@@ -107,7 +107,7 @@
                 <!-- Sidebar user (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="adminlte//img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        <img src="adminlte//img/adminsus.png" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
                         <a href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
@@ -119,7 +119,7 @@
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                     data-accordion="false">
                     <li class="nav-item">
-                        <a href="" style="color:rgb(255, 255, 255);"
+                        <a href="/home" style="color:rgb(255, 255, 255);"
                             class="nav-link {{ Request::is('admin/homeadmin') || Request::is('admin/homeadmin/*') ? 'active' : '' }}">
                             <i class="nav-icon fas fa-tachometer-alt"></i>
                             <p>

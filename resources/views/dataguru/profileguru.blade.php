@@ -83,7 +83,7 @@
                         @endforeach
                         <button type="button" class="btn btn-info" style="text-align: center" data-toggle="modal"
                             data-target="#exampleModalmenu">
-                            Tambah Data Baru</button>
+                            Tambah Data</button>
                         <!-- /.card-body -->
                     </div>
                     <!-- /.card-header -->
