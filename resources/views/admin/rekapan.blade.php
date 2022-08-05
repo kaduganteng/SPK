@@ -22,7 +22,21 @@
           <div class="col-12">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Nama Guru (tar diisi kaya kategori)</h3>
+              <div class="form-group">
+                            <label for="exampleInputEmail1">Pilih Nama Guru</label>
+                            <div class="input-group">
+                                <select name="nama_id" class="form-control">
+                                    @if (!empty($rekapdata->nama_id))
+                                    <option value="{{ @$rekapdata->nama_id }}" {{ !empty($rekapdata->nama_id  ) ? 'selected' : '' }}>
+                                        {{ $rekapdata->nama }}
+                                    </option>
+                                    @endif
+                                    @foreach ($profileguru as $pg)
+                                    <option value="{{ $pg->id }}">{{ $pg->nama  }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
 
                 <div class="card-tools">
                   <div class="input-group input-group-sm" style="width: 150px;">

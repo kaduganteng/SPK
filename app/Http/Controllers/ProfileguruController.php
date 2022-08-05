@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Profileguru;
 use Illuminate\Http\Request;
+use RealRashid\SweetAlert\Facades\Alert;
+
+
 
 
 
@@ -36,7 +39,7 @@ class ProfileguruController extends Controller
           'nip'=>$request->nip,
           'status' => $request->status
       ]);
-      
+      Alert::success('Success Title', 'Success Message');
       return redirect()->back();
    }
 
